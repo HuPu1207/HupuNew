@@ -3,7 +3,11 @@
  * @version: v1.0.0
  * @Author: zxs
  * @Date: 2019-11-26 10:31:15
+<<<<<<< HEAD
  * @LastEditors: zxs
+=======
+ * @LastEditors: Please set LastEditors
+>>>>>>> cq
  * @lastEditTime: Do not Edit
  -->
 <template>
@@ -30,7 +34,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <!-- style lang="scss" scoped="" type="text/css"-->
+<<<<<<< HEAD
 <style lang="scss" scoped>
+=======
+<style scoped>
+>>>>>>> cq
 .top{
     width:100%;
     height:.5rem;

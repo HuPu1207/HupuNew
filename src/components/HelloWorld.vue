@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!--
  * @Descripttion: 
  * @version: v1.0.0
@@ -6,6 +7,8 @@
  * @LastEditors: zxs
  * @lastEditTime: Do not Edit
  -->
+=======
+>>>>>>> cq
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>

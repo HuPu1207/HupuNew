@@ -1,9 +1,13 @@
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
   "name": "huxiuapp",
 =======
   "name": "hupu",
 >>>>>>> LPF
+=======
+  "name": "hupu",
+>>>>>>> cq
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -12,6 +16,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+<<<<<<< HEAD
 <<<<<<< HEAD
     "axios": "^0.19.0",
     "core-js": "^3.3.2",
@@ -23,12 +28,18 @@
     "element-ui": "^2.13.0",
 >>>>>>> LPF
     "mint-ui": "^2.2.13",
+=======
+    "core-js": "^3.3.2",
+    "element-ui": "^2.13.0",
+    "swiper": "^5.2.1",
+>>>>>>> cq
     "vue": "^2.6.10",
     "vue-router": "^3.1.3",
     "vuex": "^3.1.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.0.0",
+<<<<<<< HEAD
 <<<<<<< HEAD
     "@vue/cli-service": "^4.0.0",
 =======
@@ -60,6 +71,14 @@
     }
   },
 >>>>>>> LPF
+=======
+    "@vue/cli-service": "^4.0.0",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.1",
+    "vue-template-compiler": "^2.6.10"
+  },
+>>>>>>> cq
   "postcss": {
     "plugins": {
       "autoprefixer": {}
