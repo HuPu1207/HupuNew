@@ -1,6 +1,7 @@
 <!--
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @Descripttion: 
  * @version: v1.0.0
  * @Author: zxs
@@ -17,10 +18,17 @@
  * @Date: 2019-11-26 09:13:29
  * @LastEditors: CoolWind
  * @LastEditTime: 2019-12-02 14:12:55
+=======
+ * @Author: 赵新朋
+ * @Date: 2019-11-26 10:02:42
+ * @LastEditors: 赵新朋
+ * @LastEditTime: 2019-12-02 09:00:06
+>>>>>>> zxp
  * @Description: 
  -->
 <template>
   <div id="app">
+<<<<<<< HEAD
     <router-view> </router-view>
 >>>>>>> LPF
 =======
@@ -35,10 +43,14 @@
   <div id="app">
       <router-view> </router-view>
 >>>>>>> cq
+=======
+	<router-view></router-view>
+>>>>>>> zxp
   </div>
 </template>
 
 <script>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 // import Index from './pages/Index.vue'
@@ -55,14 +67,23 @@ export default {
     return {}
 >>>>>>> LPF
   }
+=======
+
+
+export default {
+  name: 'app'
+>>>>>>> zxp
 }
 </script>
 
 <style>
 <<<<<<< HEAD
+<<<<<<< HEAD
 #app{
   width:100%
 }
+=======
+>>>>>>> zxp
 body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,hr,td,input,textarea{
 	margin:0;
 	padding:0;
@@ -79,13 +100,17 @@ img{
 }
 body{
 	font-family: "微软雅黑";
+<<<<<<< HEAD
 	display: -webkit-flex;
 	-webkit-flex-direction:column;
   	font-size:14px;
+=======
+>>>>>>> zxp
 }
 html{
 	font-size: 26.67vw;
 }
+<<<<<<< HEAD
 =======
   *{
     margin: 0;
@@ -137,4 +162,10 @@ ul,li{
   list-style: none;
 }
 >>>>>>> cq
+=======
+html,body{
+	width: 100%;
+	height: 100%;
+}
+>>>>>>> zxp
 </style>

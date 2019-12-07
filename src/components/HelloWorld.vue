@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <!--
  * @Descripttion: 
  * @version: v1.0.0
@@ -9,6 +10,8 @@
  -->
 =======
 >>>>>>> cq
+=======
+>>>>>>> zxp
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>

@@ -1,6 +1,7 @@
 /*
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @Descripttion: 
  * @version: v1.0.0
  * @Author: zxs
@@ -39,10 +40,17 @@ new Vue({
  * @Date: 2019-11-26 09:13:29
  * @LastEditors: CoolWind
  * @LastEditTime: 2019-12-02 09:39:14
+=======
+ * @Author: 赵新朋
+ * @Date: 2019-11-26 10:02:42
+ * @LastEditors: 赵新朋
+ * @LastEditTime: 2019-12-05 20:54:10
+>>>>>>> zxp
  * @Description: 
  */
 import Vue from 'vue'
 import App from './App.vue'
+<<<<<<< HEAD
 // 引入router时，变量名必须用小写，与插件同名，否则页面出不来
 import router from './router'
 import store from './store'
@@ -88,4 +96,24 @@ new Vue({
   store,
   render: h => h(App),
 >>>>>>> cq
+=======
+import router from './router'
+import ElementUI from 'element-ui';
+import Axios from 'axios'
+import VideoPlayer from 'vue-video-player'
+import store from './store'
+
+Vue.use(VideoPlayer);
+Vue.use(ElementUI);
+Axios.defaults.baseURL = '/api/';
+Vue.config.productionTip = false
+import 'element-ui/lib/theme-chalk/index.css'; 
+
+Vue.config.productionTip = false
+
+new Vue({
+  
+  render: h => h(App),
+  router,
+>>>>>>> zxp
 }).$mount('#app')
