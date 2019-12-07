@@ -1,0 +1,30 @@
+{
+  "id": "1540813",
+  "name": "hupu",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "414667",
+      "name": "更多",
+      "font_class": "more",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "645039",
+      "name": "搜索",
+      "font_class": "search",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+    {
+      "icon_id": "8093013",
+      "name": "后退",
+      "font_class": "back",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    }
+  ]
+}
