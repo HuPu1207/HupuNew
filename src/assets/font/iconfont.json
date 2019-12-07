@@ -1,11 +1,17 @@
 {
+<<<<<<< HEAD
   "id": "1531290",
   "name": "虎扑",
+=======
+  "id": "1540813",
+  "name": "hupu",
+>>>>>>> LPF
   "font_family": "iconfont",
   "css_prefix_text": "icon-",
   "description": "",
   "glyphs": [
     {
+<<<<<<< HEAD
       "icon_id": "1170477",
       "name": "意见反馈",
       "font_class": "yijianfankui",
@@ -144,6 +150,27 @@
       "font_class": "liangle-zuqiu",
       "unicode": "e61b",
       "unicode_decimal": 58907
+=======
+      "icon_id": "414667",
+      "name": "更多",
+      "font_class": "more",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "645039",
+      "name": "搜索",
+      "font_class": "search",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+    {
+      "icon_id": "8093013",
+      "name": "后退",
+      "font_class": "back",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+>>>>>>> LPF
     }
   ]
 }
