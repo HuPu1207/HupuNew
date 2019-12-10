@@ -1,8 +1,8 @@
 <!--
  * @Author: your name
  * @Date: 2019-11-30 20:50:00
- * @LastEditTime: 2019-12-03 10:18:34
- * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2019-12-10 10:42:50
+ * @LastEditors: CoolWind
  * @Description: In User Settings Edit
  * @FilePath: \html11f:\myvue\hupu\src\components\DetailTop.vue
  -->
@@ -35,7 +35,7 @@ export default {
         }
     },
     created(){
-        this.$store.dispatch('getBanner',()=>{
+        this.$store.c.dispatch('getBanner',()=>{
                  this.$nextTick(function(){
                 let swiper = new Swiper('.swiper-container', {
                         keyboard : true,

@@ -3,7 +3,7 @@
  * @version: v1.0.0
  * @Author: zxs
  * @Date: 2019-11-26 10:31:15
- * @LastEditors: zxs
+ * @LastEditors: CoolWind
  * @lastEditTime: Do not Edit
  -->
 <template>
@@ -79,8 +79,7 @@ export default {
 <style lang="scss" scoped>
 .list{
     width:100%;
-    border-bottom: 1px solid #ffffff;    
-    margin-top: .1rem;
+    border-bottom: 1px solid #ffffff;
     margin-bottom: .57rem;
     ul{
         li{

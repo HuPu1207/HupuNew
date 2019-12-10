@@ -2,21 +2,23 @@
  * @Author: CoolWind
  * @Date: 2019-11-26 10:22:01
  * @LastEditors: CoolWind
- * @LastEditTime: 2019-11-26 14:57:05
+ * @LastEditTime: 2019-12-10 09:59:47
  * @Description: 
  -->
 <template>
     <div class="forum">
-        <div class="search"></div>
+        <ZsTop class="search"></ZsTop>
         <div class="content">
             <ForumTop></ForumTop>
         </div>
-        <div class="footer"></div>
+        <ZsFooter class="footer"></ZsFooter>
     </div>
 </template>
 
 <script>
 import ForumTop from '@/components/ForumTop';
+import ZsTop from '@/components/ZsTop';
+import ZsFooter from '@/components/ZsFooter';
 
 export default {
     name: 'LPF_ForumPage',
@@ -26,7 +28,9 @@ export default {
         }
     },
     components: {
-        ForumTop
+        ForumTop,
+        ZsTop,
+        ZsFooter
     }
 }
 </script>
@@ -44,9 +48,9 @@ export default {
         top: 0;
     }
     .footer{
-        width: 100%;
+        /* width: 100%;
         height: .5rem;
-        background: #c31d33;
+        background: #c31d33; */
         position: fixed;
         bottom: 0;
     }

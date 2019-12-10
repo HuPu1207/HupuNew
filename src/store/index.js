@@ -1,21 +1,10 @@
-<<<<<<< HEAD
-/*
-<<<<<<< HEAD
-<<<<<<< HEAD
- * @Descripttion: 
- * @version: v1.0.0
- * @Author: zxs
- * @Date: 2019-11-19 16:18:23
- * @LastEditors: zxs
- * @lastEditTime: Do not Edit
- */
+// LPF---moduleA ZS---moduleB CQ---moduleC ZXP---moduleD
 import Vue from 'vue'
 import VueX from 'vuex'
 
 Vue.use(VueX)
 
-export default new VueX.Store({
-    // 存储数据
+let moduleB = {
     state:{
         footerCls:[
             true,
@@ -45,23 +34,7 @@ export default new VueX.Store({
             state.footerCls[index]=true;
         }
     },
-    // 有异步操作，异步操作完成后，提交mutations
-    // actions:{    //没有异步操作的时候，可以不要actions
-
-    // }
-})
-=======
- * @Author: CoolWind
- * @Date: 2019-11-26 20:43:00
- * @LastEditors: CoolWind
- * @LastEditTime: 2019-12-07 10:04:14
- * @Description: 
- */
-import Vue from 'vue';
-// cli 3.0引入vuex，x要小写
-import VueX from 'vuex';
-
-Vue.use(VueX);
+}
 
 let moduleA = {
     state: {
@@ -118,27 +91,7 @@ let moduleA = {
     }
 }
 
-export default new VueX.Store({
-    modules: {
-        a: moduleA
-    }
-})
->>>>>>> LPF
-=======
- * @Author: your name
- * @Date: 2019-11-04 17:24:20
- * @LastEditTime: 2019-12-07 11:22:59
- * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
- * @FilePath: \myvue\vueone\src\router\index.js
- */
-import Vue from 'vue'
-import Vuex from 'vuex'
-
-Vue.use(Vuex)
-
-
-export default new Vuex.Store({
+let moduleC = {
     state:{//存储数据的
         imgs:[],
         count:0 
@@ -171,23 +124,10 @@ export default new Vuex.Store({
             })
         }
     }
-})
->>>>>>> cq
-=======
-/*
- * @Author: 赵新朋
- * @Date: 2019-12-05 21:01:56
- * @LastEditors: 赵新朋
- * @LastEditTime: 2019-12-05 21:09:36
- * @Description: 
- */
-import Vue from 'vue'
-import VueX from 'vuex'
+}
 
-Vue.use(VueX)
-
-export default new VueX.Store({
-	state:{
+let moduleD = {
+    state:{
 		footerCls:[
 			true,
 			false,
@@ -209,9 +149,14 @@ export default new VueX.Store({
 		sousuo(state,con){
 			state.content=con;
 		}
-	},
-	actions:{
-		
 	}
+}
+
+export default new VueX.Store({
+    modules: {
+        a: moduleA,
+        b: moduleB,
+        c: moduleC,
+        d: moduleD
+    }
 })
->>>>>>> zxp

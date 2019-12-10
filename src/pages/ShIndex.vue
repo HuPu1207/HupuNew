@@ -1,8 +1,8 @@
 <!--
  * @Author: your name
  * @Date: 2019-11-26 17:46:39
- * @LastEditTime: 2019-11-30 18:54:26
- * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2019-12-10 10:45:34
+ * @LastEditors: CoolWind
  * @Description: In User Settings Edit
  * @FilePath: \html11f:\myvue\hupu\src\pages\Sh.vue
  -->
@@ -15,6 +15,7 @@
             <Snavlistone></Snavlistone>
             <Sshoenav></Sshoenav>
         </div>
+        <ZsFooter class="fix"></ZsFooter>
     </div>
 </template>
 <script>
@@ -24,6 +25,7 @@ import Sgoodsdetail from '../components/Sgoodsdetail';
 import Snavlistone from '../components/Snavlistone';
 import Sshoenav from '../components/Sshoenav';
 import Sshoeclassfiy from '../components/Sshoeclassfiy';
+import ZsFooter from '../components/ZsFooter';
 
 export default {
     name:"ShIndex",
@@ -33,7 +35,7 @@ export default {
         }
     },
     components:{
-        ZsTop,Sbanner,Sgoodsdetail,Snavlistone,Sshoenav,Sshoeclassfiy
+        ZsTop,Sbanner,Sgoodsdetail,Snavlistone,Sshoenav,Sshoeclassfiy,ZsFooter
     }
 }
 </script>
@@ -53,5 +55,8 @@ export default {
     top: 0;
     z-index: 88;
 }
-
+.fix{
+    position: fixed;
+    bottom: 0;
+}
 </style>

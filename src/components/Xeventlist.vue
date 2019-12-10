@@ -1,8 +1,8 @@
 <!--
  * @Author: 赵新朋
  * @Date: 2019-11-28 14:25:35
- * @LastEditors: 赵新朋
- * @LastEditTime: 2019-12-04 16:29:00
+ * @LastEditors: CoolWind
+ * @LastEditTime: 2019-12-10 10:05:23
  * @Description: 
  -->
 <template>
@@ -106,6 +106,7 @@ export default {
                 line-height: .3rem;
                 font-size: 14px;
                 padding-left: 16px;
+                margin-bottom: 0;
                 img{
                     width: .25rem;
                     height: .25rem;

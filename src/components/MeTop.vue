@@ -3,7 +3,7 @@
  * @version: v1.0.0
  * @Author: zxs
  * @Date: 2019-12-06 14:48:55
- * @LastEditors: zxs
+ * @LastEditors: CoolWind
  * @lastEditTime: Do not Edit
  -->
 
@@ -56,6 +56,9 @@ export default {
         text-align: center;
         .iconfont{
             font-size: .18rem;
+        }
+        p{
+            margin-bottom: 0;
         }
     }
     .one:first-child{

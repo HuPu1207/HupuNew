@@ -3,7 +3,7 @@
  * @version: v1.0.0
  * @Author: zxs
  * @Date: 2019-11-26 10:31:15
- * @LastEditors: zxs
+ * @LastEditors: CoolWind
  * @lastEditTime: Do not Edit
  -->
 <template>
@@ -16,38 +16,6 @@
                 <span>{{content.name}}</span>
             </router-link>
         </li>
-
-        <!-- 静态页面-->
-        <!--<li>
-            <router-link to="/Index">
-                <img :src="imgObj.imgUrl01" alt="">
-                <span>比赛</span>
-            </router-link>
-        </li>
-        <li>
-            <router-link to="/Index">
-                <img :src="imgObj.imgUrl02" alt="">
-                <span>排行</span>
-            </router-link>
-        </li>
-        <li>
-            <router-link to="/Index">
-                <img :src="imgObj.imgUrl03" alt="">
-                <span>视频</span>
-            </router-link>
-        </li>
-        <li>
-            <router-link to="/Index">
-                <img :src="imgObj.imgUrl04" alt="">
-                <span>视频</span>
-            </router-link>
-        </li>
-        <li>
-            <router-link to="/Index">
-                <img :src="imgObj.imgUrl05" alt="">
-                <span>装备</span>
-            </router-link>
-        </li> -->
     </ul>
   </div>
 </template>
@@ -64,15 +32,6 @@ export default {
         List:[],
         isShow:true,
     }
-    // return{
-    //     imgObj:{
-    //         imgUrl01:require("../assets/img/a01.jpg"),
-    //         imgUrl02:require("../assets/img/a02.jpg"),
-    //         imgUrl03:require("../assets/img/a03.jpg"),
-    //         imgUrl04:require("../assets/img/a04.jpg"),
-    //         imgUrl05:require("../assets/img/a05.jpg"),
-    //     }
-    // }
   },
   created(){
       Axios.get('http://localhost:3000/ZsContent')
@@ -103,6 +62,7 @@ export default {
         display: flex;
         justify-content: space-around;
         align-items: center;
+        margin-bottom: 0;
         li{
             a{
                 color:#434247;

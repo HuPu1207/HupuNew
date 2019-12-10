@@ -3,7 +3,7 @@
  * @version: v1.0.0
  * @Author: zxs
  * @Date: 2019-12-06 16:27:47
- * @LastEditors: zxs
+ * @LastEditors: CoolWind
  * @lastEditTime: Do not Edit
  -->
 
@@ -60,11 +60,14 @@ export default {
             // width: .55rem;
             font-size: .12rem;
             text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
             .iconfont{
                 font-size: .24rem;
             }
             p{
-                margin-top: .05rem;
+                margin-bottom: 0;
             }
         }
     }

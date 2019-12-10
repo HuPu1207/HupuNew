@@ -1,12 +1,12 @@
 <!--
  * @Author: 赵新朋
  * @Date: 2019-11-26 10:02:42
- * @LastEditors: 赵新朋
- * @LastEditTime: 2019-12-05 19:14:01
+ * @LastEditors: CoolWind
+ * @LastEditTime: 2019-12-09 14:36:24
  * @Description: 
  -->
 <template>
-  <div id="app">
+  <div id="app1">
      <Battle></Battle>
      <Infomatch></Infomatch>
   </div>
@@ -16,7 +16,7 @@ import Battle from '@/components/Battle.vue'
 import Infomatch from '@/components/Infomatch.vue'
 
 export default {
-  name: 'app',
+  name: 'app1',
   components: {
     Battle,Infomatch
     

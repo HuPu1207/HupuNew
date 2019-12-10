@@ -1,18 +1,18 @@
 <!--
  * @Author: 赵新朋
  * @Date: 2019-11-26 10:02:42
- * @LastEditors: 赵新朋
- * @LastEditTime: 2019-12-02 10:11:09
+ * @LastEditors: CoolWind
+ * @LastEditTime: 2019-12-10 10:02:50
  * @Description: 
  -->
 <template>
-  <div id="app">
+  <div id="app1">
       <div class="navtop">
         <ZsTop></ZsTop>
         <Xnav></Xnav>
       </div>
 	<Xeventlist></Xeventlist>
-	<ZsFooter></ZsFooter>
+	<ZsFooter class="fix"></ZsFooter>
   </div>
 </template>
 
@@ -24,7 +24,7 @@ import ZsFooter from '@/components/ZsFooter'
 // import Pubu from './components/Pubu'
 
 export default {
-  name: 'app',
+  name: 'app1',
   components: {
     Xnav,ZsTop,ZsFooter,Xeventlist
     
@@ -62,4 +62,9 @@ html,body{
     overflow-x: auto;
     top: 0;
 }
+.fix{
+  position: fixed;
+  bottom: 0;
+}
+
 </style>
