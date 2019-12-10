@@ -90,6 +90,9 @@ export default {
 </script>
 
 <style lang="scss" scoped="" type="text/css">
+p{
+    margin-bottom: 0 !important;
+}
 .el-icon-close{
   font-size: 22px;
 }

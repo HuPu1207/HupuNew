@@ -4,7 +4,7 @@
  * @Author: mac
  * @Date: 2019-11-06 14:35:10
  * @LastEditors: zxs
- * @LastEditTime: 2019-12-07 10:56:02
+ * @LastEditTime: 2019-12-10 11:51:58
  -->
 <template>
     <div class="box"> 
@@ -165,6 +165,9 @@ export default {
 </script>
 
 <style lang="scss" scoped="" type="text/css">
+p{
+    margin-bottom: 0 !important;
+}
 .box1{
     position: relative;
 }
